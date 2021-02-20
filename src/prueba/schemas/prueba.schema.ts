@@ -3,5 +3,5 @@ const Schema = mongoose.Schema;
 
 export const pruebaSchema = new mongoose.Schema({
 
-  dato: String
+  dato: String// nada reelevante 
 });

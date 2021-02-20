@@ -3,7 +3,7 @@ import { AppModule } from './app.module';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger'
 import { config } from 'rxjs';
 
-async function bootstrap() {
+async function bootstrap() {//esta api esta en des uso 
   const app = await NestFactory.create(AppModule);
   const options = new DocumentBuilder()
     .setTitle('api de pruebas')
